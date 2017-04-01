@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Bootstrap 101 Template</title>
+
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+	background-color: #f2f2f2;
+	padding: 25px;
+}
+
+.bsMenu {
+	margin: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+/* 	background-color: #333; */
+}
+
+li {
+	float: left;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: white;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: block;
+	position: absolute;
+ 	background-color: #f9f9f9; 
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+}
+</style>
+</head>
+<body>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="/bootstrap/js/bootstrap.min.js"></script>
+	<div class="container-fluid">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<ul>
+				<li class="dropdown"><a href="javascript:void(0)"
+					class="dropbtn">Menu</a>
+					<div class="dropdown-content">
+						<a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link
+							3</a>
+					</div></li>
+					
+					<li class="nav navbar-nav navbar-right">
+					<a href="#">Search <span class="glyphicon glyphicon-search"></span></a>
+					</li>
+					
+					<li class="nav navbar-nav navbar-right">
+					<a href="https://twitter.com/html" target="_blank">
+					<img src="Resource/twitter-logo.jpg" alt="twitter-logo" style="width:20px; height:20px; top:10px;">
+					</a>
+					</li>
+					
+						<li class="nav navbar-nav navbar-right">
+					<a href="https://github.com/MondrianDB/html" target="_blank">
+					<img src="Resource/Github-logo.png" alt="twitter-logo" style="width:20px; height:20px; top:10px;">
+					</a>
+					</li>
+			</ul>
+		</nav>
+	</div>
+
+
+	<div class="col-sm-12">
+		<a> <img src="Resource/giphy.gif" alt="Mondrain.gif"
+			class="img-responsive"
+			style="height: 600px; width: 2500px; z-index: 10;">
+		</a>
+	</div>
+	<div></div>
+	<br>
+	<div class="container-fluid">
+		<p class="lead">Employing special-purpose processors (e.g., GPUs)
+			in database systems has been studied throughout the last decade.
+			Research on heterogeneous database systems that use both general- and
+			special-purpose processors has addressed either transaction- or
+			analytic processing, but not the combination of them. Support for
+			hybrid transaction- and analytic processing (HTAP) has been studied
+			exclusively for CPU-only systems. In this paper we ask the question
+			whether current systems are ready for HTAP workload management with
+			cooperating generaland special-purpose processors. For this, we take
+			the perspective of the backbone of database systems: the storage
+			engine. We propose a unified terminology and a comprehensive taxonomy
+			to compare state-of-the-art engines from both domains. We show
+			similarities and differences, and determine a necessary set of
+			features for engines supporting HTAP workload on CPUs and GPUs.For
+			this, we take the perspective of the backbone of database systems:
+			the storage engine. We propose a unified terminology and a
+			comprehensive taxonomy to compare state-of-the-art engines from both
+			domains. We show similarities and differences, and determine a
+			necessary set of features for engines supporting HTAP workload on
+			CPUs and GPUs.</p>
+	</div>
+	<br>
+
+
+	<footer class="container-fluid">
+		<div class="container">
+			<small style="text-align: center">@CopyRight DBSE OVGU</small>
+		</div>
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-8">
+			<a href="Homepage.html/html">Home</a> | 
+			<a href="#">Community</a> | 
+			<a href="#">Contact Us</a> |
+			<a href="#">About</a>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+	</footer>
+
+</body>
+</html>

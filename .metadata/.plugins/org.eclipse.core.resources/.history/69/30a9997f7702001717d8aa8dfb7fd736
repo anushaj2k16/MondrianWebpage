@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="Styles.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<script>
+	$(function() {
+		$("#header").load("Header.html");
+		$("#footer").load("Footer.html");
+	});
+</script>
+</head>
+<body>
+	<div id="header"></div>
+	<div class="container-fluid" id="div-1" style="height: 400px; background-color: #991f00; 2800px; z-index: 10;">
+	<!-- 	<img src="Resource/Sierpinski_square.jpg" alt="Mondrain.gif"
+			class="img-responsive"
+			style="height: 400px; width: 2800px; z-index: 10;">  -->
+		<button type="button" id="getstartedbtn" class="btn btn-lg"
+			data-icon="Get Started">Get Started »</button>
+		<button type="button" id="downloadbtn" class="btn btn-lg"
+			data-icon="Download">Download »</button>
+	</div>
+<hr>
+	 <div class="container-fluid well">
+	<div class="well"><p>Employing special-purpose processors (e.g., GPUs) in
+										database systems has been studied throughout the last decade.
+										Research on heterogeneous database systems that use both
+										general- and special-purpose processors has addressed either
+										transaction- or analytic processing, but not the combination
+										of them. Support for hybrid transaction- and analytic
+										processing (HTAP) has been studied exclusively for CPU-only
+										systems.</p></div>
+		<div class="row">
+			 <div class="col-sm-8">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="frame item1">
+							<div ><span class="badge"> 1 </span> Feature </div>
+							<div class="text">Employing special-purpose processors (e.g., GPUs) in
+										database systems has been studied throughout the last decade.
+										Research on heterogeneous database systems that use both
+										general- and special-purpose processors <a href="#feture1content"> More..</a></div>
+						</div>
+					</div>
+					<div class="col-sm-6 item2">
+						<div class="frame">
+							<div ><span class="badge"> 2 </span> Feature </div>
+							<div class="text">Employing special-purpose processors (e.g., GPUs) in
+										database systems has been studied throughout the last decade.
+										Research on heterogeneous database systems that use both
+										general- and special-purpose processors <a href="#feture1content"> More..</a></div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="frame item3">
+							<div ><span class="badge"> 3 </span> Feature </div>
+							<div class="text">Employing special-purpose processors (e.g., GPUs) in
+										database systems has been studied throughout the last decade.
+										Research on heterogeneous database systems that use both
+										general- and special-purpose processors <a href="#feture1content"> More..</a></div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="frame item4">
+							<div ><span class="badge"> 4 </span> Feature </div>
+							<div class="text">Employing special-purpose processors (e.g., GPUs) in
+										database systems has been studied throughout the last decade.
+										Research on heterogeneous database systems that use both
+										general- and special-purpose processors <a href="#feture1content"> More..</a></div>
+						</div>
+					</div>
+				</div>
+			</div>  
+
+		<!-- 	 <div class="col-sm-8 col-xs-12">
+				<div class="panel panel-default">
+					<div class=panel-body>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="well">
+									<p>Employing special-purpose processors (e.g., GPUs) in
+										database systems has been studied throughout the last decade.
+										Research on heterogeneous database systems that use both
+										general- and special-purpose processors has addressed either
+										transaction- or analytic processing, but not the combination
+										of them. Support for hybrid transaction- and analytic
+										processing (HTAP) has been studied exclusively for CPU-only
+										systems.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="row">
+							<div class="col-sm-6 well-sm">
+								<div class="panel-heading">
+									<span class="badge">1</span> Feature
+								</div>
+								<div class="panel-body">
+									<p>
+										We propose a unified terminology and a comprehensive taxonomy
+										to compare state-of-the-art engines <a href="#feture1content"
+											data-toggle="collapse">Click for More..</a>
+									</p>
+
+									<p id="feture1content" class="collapse">from both domains.
+										We show similarities and differences,and determine a necessary
+										set of features for engines supporting HTAP workload on CPUs
+										and GPUs</p>
+								</div>
+							</div>
+
+							<div class="col-sm-6 well-sm">
+								<div class="panel-heading">
+									<span class="badge">2</span> Feature
+								</div>
+								<div class="panel-body">Write something to fill the space
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="panel panel-default">
+						<div class="row">
+							<div class="col-sm-6 well-sm">
+								<div class="panel-heading">
+									<span class="badge">3</span> Feature
+								</div>
+								<div class="panel-body">
+									<p>
+										We propose a unified terminology and a comprehensive taxonomy
+										to compare state-of-the-art engines <a href="#feture3content"
+											data-toggle="collapse">Click for More..</a>
+									</p>
+
+									<p id="feture3content" class="collapse">from both domains.
+										We show similarities and differences,and determine a necessary
+										set of features for engines supporting HTAP workload on CPUs
+										and GPUs</p>
+								</div>
+							</div>
+
+							<div class="col-sm-6 well-sm">
+								<div class="panel-heading">
+									<span class="badge">4</span> Feature
+								</div>
+								<div class="panel-body">Write something to fill the space
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+			<div class="col-sm-4 ">
+				<div class="panel panel-default">
+					<div class=panel-body>
+						<a class="twitter-timeline"
+							href="https://twitter.com/hashtag/DBSE"
+							data-widget-id="837682915177807875">#DBSE Tweets</a>
+						<script>
+							!function(d, s, id) {
+								var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/
+										.test(d.location) ? 'http' : 'https';
+								if (!d.getElementById(id)) {
+									js = d.createElement(s);
+									js.id = id;
+									js.src = p
+											+ "://platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js, fjs);
+								}
+							}(document, "script", "twitter-wjs");
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+
+
+	<div id="footer" class="footerClass"></div>
+
+	<!-- <footer class="container-fluid">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<small style="text-align: right;">CopyRight @ DBSE OVGU 2017</small>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-8"></div>
+			<div class="col-md-4" align="right">
+				<a href="https://twitter.com/html" target="_blank"
+					style="padding-right: 25px"> <img src="Resource/Tlogo.jpg"
+					alt="twitter-logo" style="width: 20px; height: 20px; top: 10px;">
+				</a> <a href="https://github.com/MondrianDB/html" target="_blank"> <img
+					src="Resource/Glogo.png" alt="twitter-logo"
+					style="width: 20px; height: 20px; top: 10px;">
+				</a>
+			</div>
+		</div>
+	</footer> -->
+
+</body>
+</html>

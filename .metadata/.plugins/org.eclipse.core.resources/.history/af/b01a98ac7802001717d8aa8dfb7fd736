@@ -1,0 +1,136 @@
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color:#333333;
+	color:white;
+}
+
+/* Add a gray background color and some padding to the footer */
+.footerClass{
+	background-color:#333333;
+	color:white;
+}
+div.flogos:hover{
+	background-color: red;
+}
+#menubold{
+	color:white;
+	font-family: serif;
+	font-size: large;
+}
+
+#menubold:HOVER{
+	background-color: black;
+}
+
+#div-1{
+	position: relative;
+}
+
+#downloadbtn{
+	position: absolute;
+	bottom:80px;
+	right: 120px;
+	background-color: #333333;
+	color:white;
+}
+
+#getstartedbtn{
+	position: absolute;
+	bottom:80px;
+	right: 280px;
+	background-color: #333333;
+	color:white;
+}
+
+#getstartedbtn:HOVER,#downloadbtn:HOVER{
+	background-color: black;
+}
+
+#SetLW{
+	height: 100px;
+	width: 100px;
+	border-color: black;
+    border-style: solid;
+   border-width: 1px;
+}
+
+  div.frame{
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        -moz-border-radius:   5px 5px 5px 5px; /* Firefox */
+        -webkit-border-radius:5px 5px 5px 5px; /* Chrome, Safari */
+        -khtml-border-radius: 5px 5px 5px 5px; /* Konqueror */
+        border-radius:        5px 5px 5px 5px; /* CSS3 */
+        behavior:url(border-radius.htc); /* Internet Explorer */
+
+        position: absolute;
+        width: 350px;
+        height: 177px;
+
+        margin: 0px;
+        padding: 5px;
+        padding-top: 2px;
+        padding-left: 5px;
+        background-color: #669999;
+
+        color: rgb(1, 1, 1);
+
+        font-family: verdana;
+        font-weight: bold;
+        font-size: 12px;
+        hyphens: auto;
+    }
+    div.frame:hover{
+        background-color: #476b6b;
+        border-color: rgb(0, 104, 180);
+        color: rgb(254, 254, 254);
+    }
+    div.text{
+    border-color:#858585;
+        border-style: solid;
+        border-width: 0px;
+        -moz-border-radius:   0px 0px 0px 0px; /* Firefox */
+        -webkit-border-radius:0px 0px 0px 0px; /* Chrome, Safari */
+        -khtml-border-radius: 0px 0px 0px 0px; /* Konqueror */
+        border-radius:        0px 0px 0px 0px; /* CSS3 */
+        behavior:url(border-radius.htc); /* Internet Explorer */
+
+        position: absolute;
+        left: 00px;
+        top: 38px;
+        width: 350px;
+        height: 120px;   
+        margin: 0px;
+        padding: 2px;
+        background-color: #ffffff;
+        font-family: verdana;
+        font-weight: normal;
+        font-size: 12px;
+        hyphens: auto;      
+        color: rgb(1, 1, 1);
+    }
+
+div.item1{
+	left:30px;
+	top:30px;
+}
+
+div.item2{
+	
+	top:30px;
+}
+
+div.item3{
+	left:30px;
+	top:250px;
+}
+
+div.item4{
+
+	top:250px;
+}
+
+
+}

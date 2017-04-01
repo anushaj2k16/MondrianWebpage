@@ -1,0 +1,50 @@
+
+		// When your page loads
+		$(function() {
+			// When the toggle areas in your navbar are clicked, toggle them
+			$("#searchButton").click(function(e) {
+				console.log("search button clicked");
+				e.preventDefault();
+				$("#searchfield").toggle();
+				$("#searchButton").hide();
+				$("#closeButton").show();
+				$("#search-icon").$("div").animate({
+					Right : '10px'
+				});
+
+				var cx = '011710055739914606767:xw-wydtowvc';
+				var gcse = document.createElement('script');
+				gcse.type = 'text/javascript';
+				gcse.async = true;
+				gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(gcse, s);
+			});
+
+			$("#closeButton").click(function(e) {
+				e.preventDefault();
+				$("#closeButton").hide();
+				$("#searchButton").show();
+				$("#searchfield").toggle();
+
+			});
+			(function() {
+				var cx = '011710055739914606767:xw-wydtowvc';
+				var gcse = document.createElement('script');
+				gcse.type = 'text/javascript';
+				gcse.async = true;
+				gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(gcse, s);
+			})();
+		})
+		
+		(function() {
+							var cx = '011710055739914606767:xw-wydtowvc';
+							var gcse = document.createElement('script');
+							gcse.type = 'text/javascript';
+							gcse.async = true;
+							gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+							var s = document.getElementsByTagName('script')[0];
+							s.parentNode.insertBefore(gcse, s);
+						})();
